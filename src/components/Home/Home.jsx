@@ -19,7 +19,7 @@ const Home = () => {
                         </h1>
                         <h2 className="text-2xl md:text-4xl font-bold mb-6">
                             <span className="text-[#C5C6C7]">I am </span>
-                            <span className="text-[#66FCF1]">Aashutosh Singh</span>
+                            <span className="text-[#66FCF1]">Kartikey Sharma.</span>
                         </h2>
                         <span className="text-2xl text-[#45A29E]"><TypeWrite /></span>
                     </motion.div>

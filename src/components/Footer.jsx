@@ -3,9 +3,9 @@ import { FaGithub, FaXTwitter, FaLinkedin } from 'react-icons/fa6';
 import { motion  } from 'framer-motion';
 const Footer = () => {
     const socialLinks = [
-        { icon: FaGithub, url: 'https://github.com/aashutosh148' },
-        { icon: FaXTwitter, url: 'https://x.com/aashutosh148' },
-        { icon: FaLinkedin, url: 'https://linkedin.com/in/aashutosh148' },
+        { icon: FaGithub, url: 'https://github.com/Ka4tik3y' },
+        // { icon: FaXTwitter, url: 'https://x.com/aashutosh148' },
+        { icon: FaLinkedin, url: 'https://www.linkedin.com/in/kartikey-sharma-997623268/' },
     ];
 
     return (
@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
 
                 <div className="text-sm">
-                    &copy; 2024 @aashutosh148
+                    &copy; 2025 @KartikeySharma
                 </div>
             </div>
         </motion.div>

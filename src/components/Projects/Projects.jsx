@@ -6,47 +6,35 @@ import { motion } from "framer-motion";
 const Projects = () => {
     const projects = [
         {
-            title: "Youtube Stats",
-            description: "Analyze YouTube playlists to calculate total duration, average video duration, and adjusted playback times at different speeds.",
-            image: "./Projects/yt-stat.png",
-            liveLink: "https://playlist-length.netlify.app/",
-            githubLink: "https://github.com/aashutosh148/PlayList_Stat"
+            title: "Talkin",
+            description: "Talkin is a full stack real time chat and video calling web app built with the MERN stack and WebRTC. It features user authentication, onboarding, one on one chat, video calls, and friend requests all with a clean and responsive UI.",
+            image: "./Projects/talkin.png",
+            liveLink: "https://streamifyy-e92a.onrender.com/",
+            githubLink: "https://github.com/Ka4tik3y/talkinn"
         },
         {
-            title: "GDP-Projections",
-            description: "An interactive tool that allows users to explore and visualize future economic scenarios for countries worldwide, using GDP data and user-adjustable average growth rates.",
-            image: "./Projects/GDP.png",
-            liveLink: 'https://gdp-projections.netlify.app/',
-            githubLink: "https://github.com/aashutosh148/GDP-Projection"
+            title: "MegaBlog",
+            description: "Megablog is a dynamic blogging platform crafted with React and powered by Appwrite services. It offers users a seamless experience to sign up, create accounts, and publish blogs enriched with images. This interactive website aims to provide a user-friendly interface for both writing and sharing content effortlessly.",
+            image: "./Projects/megablog.png",
+            liveLink: 'https://mega-blog-pink-theta.vercel.app/',
+            githubLink: "https://github.com/Ka4tik3y/MegaBlog"
         },
         {
-            title: "Sticky-Notes",
-            description: "This is a full-stack MERN (MongoDB, Express, React, Node.js) application that allows users to create, manage, and organize their digital sticky notes.",
-            image: "./Projects/Notes.png",
-            liveLink: 'https://sticky-notes-ash.vercel.app/',
-            githubLink: "https://github.com/aashutosh148/Sticky-Notes/"
+            title: "Real-time Location Tracker",
+            description: "A web application that allows users to track their real-time location and share it with others.",
+            image: "./Projects/location.png",
+            liveLink: null,
+            githubLink: "https://github.com/Ka4tik3y/REAL-TIME-TRACKER"
         },
         {
-            title: "User-Authentication With JWT",
+            title: "Backend API for YouTube like multi media app",
             description: "User authentication using JWT, endpoints for user registration, login/logout, access to protected routes, token revocation and token expiration.",
             image: "./Projects/jwt.png",
             liveLink: null,
-            githubLink: "https://github.com/aashutosh148/User-auth-JWT"
-        },
-        {
-            title: "Attendance & Vacation Panner",
-            description: "It helps students calculate fall in their attendance in case they take leave. Also Help them to get longest Holiday length with least Off Days",
-            image: "./Projects/vacation.png",
-            liveLink: "https://aashutosh148.github.io/UniHelp/resources/HolidayPlanner/",
-            githubLink: "https://github.com/aashutosh148/UniHelp"
-        },
-        {
-            title: "Chat Server & user-auth",
-            description: "Chat Application, with secure user-auth and real-time chat functionality. This project is built using Node.js, Express.js, MongoDB, Socket.IO, and HBS",
-            image: "./Projects/chatServ.png",
-            liveLink: null,
-            githubLink: "https://github.com/aashutosh148/ChatRoom-with-auth"
+            githubLink: "https://github.com/Ka4tik3y/chillycap-youtube-backend"
         }
+       
+      
     ];
 
     return (

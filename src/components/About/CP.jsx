@@ -7,25 +7,20 @@ const CodingProfileCard = () => {
         {
             name: 'GitHub',
             icon: FaGithub,
-            url: 'https://github.com/aashutosh148',
+            url: 'https://github.com/ka4tik3y',
             color: 'text-black'
         },
         {
             name: 'LeetCode',
             icon: SiLeetcode,
-            url: 'https://leetcode.com/aashutosh148',
+            url: 'https://leetcode.com/u/Kartik3y/',
             color: 'text-[black]'
         },
-        {
-            name: 'CodeChef',
-            icon: SiCodechef,
-            url: 'https://www.codechef.com/users/aashutosh148',
-            color: 'text-[#5B4638]'
-        },
+       
         {
             name: 'Codeforces',
             icon: SiCodeforces,
-            url: 'https://codeforces.com/profile/aashutosh148',
+            url: 'https://codeforces.com/profile/Ka4tikey',
             color: 'text-[#1F8ACB]'
         }
     ];

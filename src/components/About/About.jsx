@@ -5,18 +5,17 @@ import { motion } from "framer-motion";
 
 const About = () => {
     const achievements = [
-        "Got Global rank 67 in Starters 124 DIV-3.",
-        "Achived Knight status and maximum rating of 2113 on leetcode Contests",
-        "Got global rank 440 in Leetcode's Biweekly Contest 146.",
-         "Achieved 3 star Rating(1672) on CodeChef Platform",
-        "Attended More than 100 Contest across Various Platforms, Solved 800+ Problems.",
-        " SSB RECOMENDED- All India Rank 226-UPSC NDA 2 2021"
+        "AI Intern at Mirai school of technology, did my summer internship learning machine learning and ai and working with real world projects and problem solving.",
+        "Participated in various hackathons and coding competitions and contests on platforms like codeforces and leetcode done over 250 problems on leetcode in C++ and Java.",
+        
+         "Currently doing an Internship at DGLiger consulting as a Backend intern with java and springboot.",
+
     ];
 
     const technicalSkills = {
         "Programming Language:": "C, C++, JavaScript, Java, Python",
-        "Frameworks/ Libraries:": "React.js, Node.js, Express.js, TailwindCSS, BootStrap",
-        "Database:": "MySQL, MongoDB, PostgreSQL"
+        "Frameworks/ Libraries:": "React.js, Node.js, Express.js, TailwindCSS, BootStrap,SpringBoot",
+        "Database:": "MySQL, MongoDB"
     };
 
     return (
@@ -38,10 +37,10 @@ const About = () => {
                         className="lg:w-2/3"
                     >
                         <p className="text-xl mb-6">
-                            Hi!! Everyone, I am Aashutosh Singh. Aspiring Web developer.
+                            Hi!! Everyone, I am Kartikey Sharma. Aspiring Web developer.
                         </p>
                         <h2 className="text-2xl font-semibold mb-4 text-[#45A29E]">
-                            Some my achievements:
+                            Some of my experiences:
                         </h2>
                         <ul className="space-y-2">
                             {achievements.map((achievement, index) => (
